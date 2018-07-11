@@ -25,17 +25,18 @@
 	</properties>
 
 	<dependencies>
+		<!-- 配置中心 config-server -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-config-server</artifactId>
 		</dependency>
-
+		<!-- spring boot test -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
+		<!-- 服务注册 eureka -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka</artifactId>
